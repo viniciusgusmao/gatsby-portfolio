@@ -12,19 +12,19 @@ import config from "../res/config";
 function ContactLinks() {
   return (
     <Contact>
-      <a href={`mailto:${config.email}`}>
+      <a href={`mailto:${config.email}`} title="E-mail">
         <FaMailBulk color="white" size="2.3em"  />
       </a>
-      <a href={config.socialMedias.instagram} target="blank">
+      <a href={config.socialMedias.instagram} target="blank" title="Instagram">
         <FaInstagram color="white" size="2.3em" />
       </a>
-      <a href={config.socialMedias.linkedin} target="blank">
-        <FaLinkedin color="white" size="2.3em"  />
-      </a>
-      <a href={config.socialMedias.FaFacebook} target="blank">
+      <a href={config.socialMedias.FaFacebook} target="blank" title="Facebook">
         <FaFacebook color="white" size="2.3em" />
       </a>            
-      <a href={config.socialMedias.github} target="blank"> 
+      <a href={config.socialMedias.linkedin} target="blank" title="Linkedin">
+        <FaLinkedin color="white" size="2.3em"  />
+      </a>
+      <a href={config.socialMedias.github} target="blank" title="Github"> 
         <FaGithub color="white" size="2.3em"  />
       </a>
     </Contact>

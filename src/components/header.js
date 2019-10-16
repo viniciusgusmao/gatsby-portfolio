@@ -4,43 +4,40 @@ import React from "react"
 import backgroundImg from "../images/background-note.jpg";
 import styled from "styled-components";
 
-const Header = () => (  
-    <ContainerBlack>
-      <ContainerImg>      
-        <Container>
-          <Titulo>Vinícius Gusmão</Titulo>
-        </Container>
-      </ContainerImg>
-    </ContainerBlack>
+const Header = () => ( 
+      <Container>      
+        <Info>
+          <InfoText>Vinícius Gusmão</InfoText>
+          <InfoText subtitle="2.5em">Desenvolvedor Web Full Stack</InfoText>
+        </Info>
+      </Container>
 )
 
-const Titulo = styled.h1`
+const InfoText = styled.p`
   color: white;
-  font-size: 4em;
+  font-weight: 600;
+  margin-bottom: 45px;
+  font-size: ${props => props.subtitle || "4em"};
+  font-family: 'Montserrat',sans-serif;
 `;
 
-const ContainerBlack = styled.div`
-  background-color: black;
-  opacity: 0.9;
+const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 `;
 
-const ContainerImg = styled.div`
+const Container = styled.div`
    width: '100%';
    height: ${window.innerHeight+'px'};
    background-image: url(${backgroundImg});    
    background-size: 'constrained';
-   background-position: center;      
-   
+   background-position: center;    
+   display: flex;
+   flex: 1;
+   justify-content: center;
+   align-items: center;
 `;
-
-const Container = styled.div`
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;  
-`;
-
-
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

@@ -4,21 +4,26 @@ import React from "react"
 import backgroundImg from "../images/background-note.jpg";
 import styled from "styled-components";
 
+import ContactLinks from "./ContactLinks";
+import fonts from "../res/fonts";
+import config from "../res/config";
+
 const Header = () => ( 
       <Container>      
         <Info>
-          <InfoText>Vinícius Gusmão</InfoText>
-          <InfoText subtitle="2.5em">Desenvolvedor Web Full Stack</InfoText>
+          <InfoText>{config.titleHeader}</InfoText>
+          <InfoText fontSize="2.5em" fontWeight="400" >{config.subtitleHeader}</InfoText>
+          <ContactLinks />
         </Info>
       </Container>
 )
 
 const InfoText = styled.p`
   color: white;
-  font-weight: 600;
+  font-weight: ${props => props.fontWeight || "600"};;
   margin-bottom: 45px;
-  font-size: ${props => props.subtitle || "4em"};
-  font-family: 'Montserrat',sans-serif;
+  font-size: ${props => props.fontSize || "4em"};
+  font-family: ${fonts.fontHeader};
 `;
 
 const Info = styled.div`
@@ -38,13 +43,5 @@ const Container = styled.div`
    justify-content: center;
    align-items: center;
 `;
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

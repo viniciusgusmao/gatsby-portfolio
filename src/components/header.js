@@ -9,7 +9,8 @@ import fonts from "../res/fonts";
 import config from "../res/config";
 import { FaAngleDoubleDown } from 'react-icons/fa';
 
-const Header = () => ( 
+function Header(){ 
+  return (
       <Container>      
         <Info>
           <InfoText>{config.titleHeader}</InfoText>
@@ -17,10 +18,11 @@ const Header = () => (
           <ContactLinks />
         </Info>
         <More>
-          <a href="#"><FaAngleDoubleDown color="white" size="1.6em"/></a>
+          <a href="#checkpoint"><FaAngleDoubleDown color="white" size="1.6em"/></a>
         </More>
       </Container>
-)
+  );
+}
 
 const More = styled.div`
   position: absolute;

@@ -35,12 +35,18 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Construído com
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <footer style={{
+          display: 'flex',
+          flex: 1,
+          justifyContent: 'center',
+          padding: '10px',
+          backgroundColor: 'black',
+          color: 'white',
+          fontSize: '12px'
+        }}>
+          © {new Date().getFullYear()}, Construído com {`  `}<a href="https://www.gatsbyjs.org">{`  `} Gatsby</a>
+        </footer>
     </>
   )
 }

@@ -66,7 +66,7 @@ function IndexPage(){
         <FaDribbbleSquare />
         <FaYarn />
       </ExpertiseItemIcons>
-      <p>NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc</p>
+      <p>React Native, Bancos SQL e NoSQL, SCRUM, NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc.</p>
       
     </Expertise>
      

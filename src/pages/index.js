@@ -59,7 +59,6 @@ function IndexPage(){
           <p>Algumas das ferramentas, editores e plataformas que utilizo diariamente: Git, Github, VSCode, AzureDevOps, Evernote, Pipefy, NPM, Webpack entre outras.</p>          
       </ExpertiseItem>
       <h1>Outras tecnologias e frameworks:</h1>
-      <p>NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc</p>
       <ExpertiseItemIcons>
         <FaNodeJs />
         <FaLaravel/>
@@ -67,6 +66,7 @@ function IndexPage(){
         <FaDribbbleSquare />
         <FaYarn />
       </ExpertiseItemIcons>
+      <p>NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc</p>
       
     </Expertise>
      
@@ -91,6 +91,7 @@ const ExpertiseItem = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
+  flex-wrap: wrap;
   width: '28%';
   p {
     margin-top: 15px;
@@ -116,10 +117,11 @@ const Expertise = styled.div`
     text-align: center;
     font-size: 25px;
     font-weight: 400;    
+    margin-top: 30px;
   };
   p {
-    flex: 1;
-    display: flex;    
+    display: block;
+    width: 100%;    
     margin-top: 15px;
     text-align: center;
   }

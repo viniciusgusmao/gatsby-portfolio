@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useEffect, useState } from "react"
 import backgroundImg from "../images/background-note.jpg";
 import styled from "styled-components";
 
@@ -10,8 +10,13 @@ import config from "../res/config";
 import { FaAngleDoubleDown } from 'react-icons/fa';
 
 function Header(){ 
+  const [heightWindow, setHeightWindow] = useState(0)
+  useEffect(() => {
+    setHeightWindow(window.innerHeight);
+  }, [])
+
   return (
-      <Container>      
+      <Container height={heightWindow}>      
         <Info>
           <InfoText>{config.titleHeader}</InfoText>
           <InfoText fontSize="1.2em" fontWeight="400" >{config.subtitleHeader}</InfoText>
@@ -46,7 +51,7 @@ const Info = styled.div`
 
 const Container = styled.div`
    width: '100%';
-   height: ${window.innerHeight+'px'};
+   height: ${props => props.height+'px'};
    background-image: url(${backgroundImg});    
    background-size: cover;
    background-repeat: no-repeat;

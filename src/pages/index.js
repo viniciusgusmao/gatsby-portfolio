@@ -28,7 +28,7 @@ function IndexPage(){
     <SEO title="Vinícius Gusmão | Desenvolvedor Web Full Stack" />
     <AboutMe>
       <h1 name="checkpoint">Sobre mim</h1>
-      <p>Sou um grande entusiasta no mundo do desenvolvimento de software. Sempre inquieto e curioso, busco a todo momento novos desafios, já que esta área possui uma dinamicidade imensa de tecnologias. Sou formado em Sistemas de Informação e trabalho com programação web desde 2010, tendo acumulado neste período muita experiência nos mais variados tipos de sistemas. Estou disponível para projetos sob demanda, colaborativos ou consultorias. Clique aqui para visualizar meu currículo detalhado.</p>
+      <p>Sou um grande entusiasta no mundo do desenvolvimento de software. Sempre inquieto e curioso, busco a todo momento novos desafios, já que esta área possui uma dinamicidade imensa de tecnologias. Sou formado em Sistemas de Informação e trabalho com programação web desde 2010, tendo acumulado neste período muita experiência nos mais variados tipos de sistemas. Estou disponível para projetos sob demanda, colaborativos ou consultorias. <a href="https://resume.io/r/5CONEd3gc" target="blank">Clique aqui</a> para visualizar meu currículo detalhado.</p>
     </AboutMe>
     <Expertise>
       <ExpertiseItem>

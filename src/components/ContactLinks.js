@@ -18,7 +18,7 @@ function ContactLinks() {
       <a href={config.socialMedias.instagram} target="blank" title="Instagram">
         <FaInstagram color="white" size="2.3em" />
       </a>
-      <a href={config.socialMedias.FaFacebook} target="blank" title="Facebook">
+      <a href={config.socialMedias.facebook} target="blank" title="Facebook">
         <FaFacebook color="white" size="2.3em" />
       </a>            
       <a href={config.socialMedias.linkedin} target="blank" title="Linkedin">

@@ -10,13 +10,17 @@ import config from "../res/config";
 import { FaAngleDoubleDown } from 'react-icons/fa';
 
 function Header(){ 
-  const [heightWindow, setHeightWindow] = useState(0)
+  const [windowHeight, setWindowHeight] = useState(0)
   useEffect(() => {
-    setHeightWindow(window.innerHeight);
-  }, [])
+    let windowHeight_ = 900;
+    if (typeof window !== 'undefined')
+      windowHeight_ = window.innerHeight;
+
+    setHeightWindow(windowHeight_);
+  }, []);
 
   return (
-      <Container height={heightWindow}>      
+      <Container height={windowHeight}>      
         <Info>
           <InfoText>{config.titleHeader}</InfoText>
           <InfoText fontSize="1.2em" fontWeight="400" >{config.subtitleHeader}</InfoText>

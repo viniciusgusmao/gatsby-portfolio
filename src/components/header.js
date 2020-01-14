@@ -16,7 +16,7 @@ function Header(){
     if (typeof window !== 'undefined')
       windowHeight_ = window.innerHeight;
 
-    setHeightWindow(windowHeight_);
+      setWindowHeight(windowHeight_);
   }, []);
 
   return (

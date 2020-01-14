@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import styled from "styled-components";
 import { 
@@ -11,7 +9,6 @@ import {
   FaHtml5,
   FaPhp,
   FaJs,
-  FaJava,
   FaGitSquare,
   FaNpm,
   FaNodeJs,
@@ -45,9 +42,8 @@ function IndexPage(){
         <ExpertiseItemIcons>
           <FaPhp />
           <FaJs/>
-          <FaJava />
         </ExpertiseItemIcons>
-        <p>Minhas linguagens principais de desenvolvimento são o PHP e o Javascript, porém tenho muita vontade de aperfeiçoar o Java, principalmente o Java pra web. </p>
+        <p>Minhas linguagens principais de desenvolvimento são o PHP e o Javascript. Porém tenho conhecimento básico em Java e Ruby e interesse em aperfeiçoar meus conhecimentos nelas.</p>
       </ExpertiseItem>
       <ExpertiseItem>
         <h1>Ferramentas</h1>

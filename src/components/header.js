@@ -26,9 +26,9 @@ function Header(){
           <InfoText fontSize="1.2em" fontWeight="400" >{config.subtitleHeader}</InfoText>
           <ContactLinks />
         </Info>
-        <More>
+        {/* <More>
           <a href="#checkpoint"><FaAngleDoubleDown color="white" size="1.6em"/></a>
-        </More>
+        </More> */}
       </Container>
   );
 }

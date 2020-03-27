@@ -22,8 +22,8 @@ import {
 function IndexPage(){
   return (
   <Layout>
-    <SEO title="Vinícius Gusmão | Desenvolvedor Web Full Stack" />
-    <AboutMe>
+    <SEO title="Vinícius Gusmão | Full Stack Developer" />
+    {/* <AboutMe>
       <h1 name="checkpoint">Sobre mim</h1>
       <p>Sou um grande entusiasta no mundo do desenvolvimento de software. Sempre inquieto e curioso, busco a todo momento novos desafios, já que esta área possui uma dinamicidade imensa de tecnologias. Sou formado em Sistemas de Informação e trabalho com programação web desde 2010, tendo acumulado neste período muita experiência nos mais variados tipos de sistemas. Estou disponível para projetos sob demanda, colaborativos ou consultorias. <a href="https://resume.io/r/5CONEd3gc" target="blank">Clique aqui</a> para visualizar meu currículo detalhado.</p>
     </AboutMe>
@@ -43,7 +43,7 @@ function IndexPage(){
           <FaPhp />
           <FaJs/>
         </ExpertiseItemIcons>
-        <p>Minhas linguagens principais de desenvolvimento são o PHP e o Javascript. Porém tenho conhecimento básico em Java e Ruby e interesse em aperfeiçoar meus conhecimentos nelas.</p>
+        <p>Minhas linguagens principais de desenvolvimento são o PHP e o Javascript. </p>
       </ExpertiseItem>
       <ExpertiseItem>
         <h1>Ferramentas</h1>
@@ -62,9 +62,8 @@ function IndexPage(){
         <FaDribbbleSquare />
         <FaYarn />
       </ExpertiseItemIcons>
-      <p>React Native, Bancos SQL e NoSQL, SCRUM, NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc.</p>
-      
-    </Expertise>
+      <p>React Native, Bancos SQL e NoSQL, SCRUM, NodeJs, Laravel, CodeIgniter, Wordpress, Dribbble, Yarn, Css-in-Js, etc.</p>      
+    </Expertise> */}
      
 
   </Layout>

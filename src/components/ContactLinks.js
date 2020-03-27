@@ -15,12 +15,6 @@ function ContactLinks() {
       <a href={`mailto:${config.email}`} title="E-mail">
         <FaMailBulk color="white" size="2.3em"  />
       </a>
-      <a href={config.socialMedias.instagram} target="blank" title="Instagram">
-        <FaInstagram color="white" size="2.3em" />
-      </a>
-      <a href={config.socialMedias.facebook} target="blank" title="Facebook">
-        <FaFacebook color="white" size="2.3em" />
-      </a>            
       <a href={config.socialMedias.linkedin} target="blank" title="Linkedin">
         <FaLinkedin color="white" size="2.3em"  />
       </a>

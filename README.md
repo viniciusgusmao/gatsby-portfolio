@@ -1,36 +1,7 @@
-<h1 align="center">
-  Boilerplate Portfolio Dev
-</h1>
+# Portfolio Dev
 
-Faça seu portfolio utilizando este boilerplate baseado no gatsby e inspirado em um template em jekyll http://jekyllthemes.org/themes/Minimal-Resume/. 
+> This portfolio was created using <a href="https://www.gatsbyjs.org/" target="blank">gatsby</a> based on http://jekyllthemes.org/themes/Minimal-Resume/. 
 
-Após realizar o fork ou clone deste projeto, certifique-se de instalar o gatsby na sua máquina, se guiando pela página oficial do próprio gatsby https://www.gatsbyjs.org/tutorial/part-zero/.
+![](https://i.ibb.co/v4Lbj9s/Captura-de-tela-de-2020-03-27-08-02-16.png)
 
-## Passos
-
-1.  **Início.**
-
-    Navegue até o diretório do site e realize os comandos:
-
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
-
-2.  **Abra o código e comece a editar**
-
-    Seu site agora está rodando em `http://localhost:8000`!
-
-3.  **Build do projeto**
-  
-    ```shell
-    cd my-default-starter/
-    gatsby build
-    ```
-   
-   Após o build, os arquivos estáticos serão gerados dentro da pasta public. Basta copiar este arquivos e enviar para o servidor via FTP.
-   Se preferir, é possível também realizar o deploy do site via Netlify.   
-   
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<i>Este projeto é baseado neste boilerplate https://github.com/gatsbyjs/gatsby-starter-default do gatsby.</i>
+If you want to use this template, you can clone this project and follow this official tutorial from Gatsby template [https://github.com/gatsbyjs/gatsby-starter-default ](http://https://github.com/gatsbyjs/gatsby-starter-default  "https://github.com/gatsbyjs/gatsby-starter-default ")
